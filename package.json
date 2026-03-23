@@ -1,0 +1,32 @@
+{
+  "name": "custom-blog-engine",
+  "version": "1.0.0",
+  "description": "Système de gestion de blog personnel - TP INF222",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build": "echo 'Build successful'",
+    "test": "echo 'No tests yet'"
+  },
+  "keywords": [
+    "blog",
+    "api",
+    "express",
+    "sqlite"
+  ],
+  "author": "Développeur INF222",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6",
+    "swagger-ui-express": "^5.0.0",
+    "swagger-jsdoc": "^6.2.8",
+    "cors": "^2.8.5",
+    "express-validator": "^7.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
